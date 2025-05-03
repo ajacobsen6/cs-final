@@ -23,7 +23,7 @@ try:
     import seaborn as sns
 
     # open file
-    df = pd.read_csv("C:/Users/Amanda Jacobsen/OneDrive - Bentley University/cs230/Top2000_Companies_Globally_Fixed.csv")
+    df = pd.read_csv("Top2000_Companies_Globally_Fixed.csv")
 
 except FileNotFoundError:
     st.error("CSV file not found. Please check the path.")
